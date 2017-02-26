@@ -18,7 +18,7 @@ g:
   expand: github.com
 ```
 
-typing `g` in the URL bar will take you to <github.com/>.
+typing `g` in the URL bar will take you to github.com.
 
 ## Overview
 
