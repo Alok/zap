@@ -7,7 +7,18 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/issmirnov/zap?style=flat-square)](https://goreportcard.com/report/github.com/issmirnov/zap)
 [![Powered By: GoReleaser](https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=flat-square)](https://github.com/goreleaser)
 
-A simple recursive URL expander.
+A simple URL redirector. Allows you to define shortcuts to pages. I find it faster than traditional bookmarks.
+
+## Example Usage
+
+If you add this line to the `c.yml` file:
+
+```yaml
+g:
+  expand: github.com
+```
+
+typing `g` in the URL bar will take you to <github.com>.
 
 ## Overview
 
